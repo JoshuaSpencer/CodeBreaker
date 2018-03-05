@@ -7,4 +7,9 @@
     tools:context="com.example.a614002.codebreaker.GameActivity">
     <!-- This is where the game will take place-->
 
+    <TextView
+        android:id="@+id/random"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 </RelativeLayout>
