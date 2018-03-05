@@ -12,9 +12,9 @@
         android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:onClick="startGame"
         android:text="@string/start_button"
-        android:textSize="64sp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"/>
+        android:textSize="64sp" />
 </RelativeLayout>
