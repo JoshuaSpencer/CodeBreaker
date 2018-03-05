@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.a614002.codebreaker.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.example.a614002.codebreaker.MainActivity">
 
-<!-- this view will be used as our main menu -->
-    <ButtonView
+    <!--this view will be used as our main menu-->
+    <!--main menu not final (obviously)-->
+    <Button
         android:id="@+id/start"
-        android:text="PLAY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="startGame"
-        android:width="wrap_content"
-        android:height="wrap_content"/>
-    <!-- LinearLayout is temporary -->
-</LinearLayout>
+        android:text="@string/start_button"
+        android:textSize="64sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
