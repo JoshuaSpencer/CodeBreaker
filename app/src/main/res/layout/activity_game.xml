@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.a614002.codebreaker.GameActivity">
     <!-- This is where the game will take place-->
 
-    <TextView
+    <EditText
         android:id="@+id/random"
+        android:hint="random number here"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Random"
+        android:layout_alignBottom="@+id/random"
+        android:onClick="randomButton"/>
+
+
+
 
 </RelativeLayout>
