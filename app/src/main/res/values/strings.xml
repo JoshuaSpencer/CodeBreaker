@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">CodeBreaker</string>
     <string name="start_button">PLAY</string>
+    <string name="acc_i_button">Information</string>
 </resources>
