@@ -26,6 +26,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
+        android:contentDescription="@string/acc_i_button"
         android:onClick="Info"
         android:scaleX=".3"
         android:scaleY=".3"

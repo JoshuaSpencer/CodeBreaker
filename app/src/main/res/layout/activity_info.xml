@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a614002.codebreaker.InfoActivity">
+
+    <LinearLayout
+        android:id="@+id/CreditsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/CreditsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credits:" />
+
+        <LinearLayout
+            android:id="@+id/JoshuaLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Joshua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JoshuaSpencer" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/JeffreyLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Jeffrey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JeffreyHarbour32" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
