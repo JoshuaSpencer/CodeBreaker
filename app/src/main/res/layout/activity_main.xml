@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,4 +18,19 @@
         android:onClick="startGame"
         android:text="@string/start_button"
         android:textSize="64sp" />
+
+    <ImageButton
+        android:id="@+id/iButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/acc_i_button"
+        android:onClick="Info"
+        android:scaleX=".3"
+        android:scaleY=".3"
+        android:translationX="182dp"
+        android:translationY="-63dp"
+        app:srcCompat="@drawable/i_button_1" />
 </RelativeLayout>
