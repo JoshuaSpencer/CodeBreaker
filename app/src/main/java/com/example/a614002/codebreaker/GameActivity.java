@@ -27,7 +27,7 @@ public class GameActivity extends AppCompatActivity {
     public void randomButton(View view){
         //Random code test
         Random randomNumber = new Random();
-        int randomInt = randomNumber.nextInt((max - min) + 1) + min;
-        randomText.setText(randomInt);
+//        int randomInt = randomNumber.nextInt(max);
+        randomText.setText(randomNumber.nextInt(50));
     }
 }
