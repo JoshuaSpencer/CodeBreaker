@@ -8,15 +8,17 @@
 
     <TextView
         android:id="@+id/randomTextView"
-        android:text="random number here"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="random int here" />
 
     <Button
+        android:id="@+id/randomButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Random"
-        android:layout_alignBottom="@+id/randomTextView"
+        android:layout_alignParentBottom="true"
         android:onClick="randomButton"/>
 
 
